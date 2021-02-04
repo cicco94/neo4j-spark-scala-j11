@@ -16,4 +16,5 @@ libraryDependencies ++= Seq(
   "org.neo4j" % "neo4j-kernel" % "4.2.3",
   "neo4j-contrib" % "neo4j-spark-connector" % "2.4.5-M2",
   "graphframes" % "graphframes" % "0.8.1-spark3.0-s_2.12",
+  "com.typesafe" % "config" % "1.4.1",
 )
