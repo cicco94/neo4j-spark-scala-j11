@@ -8,6 +8,10 @@
 - run `src/main/scala/com/academy/ProduceData.scala`
 - run `src/main/scala/com/academy/ProduceMatch.scala`
 
+### Open the neo4j terminal
+- go to `http://localhost:7474/browser/` and just hit the `connect` button (this docker is running with `--env=NEO4J_AUTH=none`)
+- click on any node-label (if your already fed the db) just to gain confidence
+
 ### TroubleShooting on relationships-creation
 If relationships have not been created is because you haven't enough permissions (you are probably working in `FULL_RESTRICTED_READ` mode).
 
