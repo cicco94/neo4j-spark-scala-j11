@@ -19,6 +19,7 @@ Fix your privileges or just run the following queries from your neo4j terminal (
 If you completed properly the previous steps, run from your neo4j terminal (at your localhost:7687 or from the Neo4jDesktopApp) the following query:
 - `MATCH (n:Continent) WHERE n.code="EU" RETURN n`
 Playing with the nodes you should now obtain something like this
+  ![](./src/main/resources/graph.png)
   
 #### Author
 ciccottandrea@gmail.com
