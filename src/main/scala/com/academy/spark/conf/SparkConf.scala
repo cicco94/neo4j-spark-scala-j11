@@ -6,14 +6,14 @@ import org.apache.spark.sql.SparkSession
 object SparkConf {
   private val APP_NAME: String = "NEO4J_SPARK_SCALA_J11"
 
-  def getLocalSparkContext: SparkContext = new SparkContext(
+  val localSparkContext: SparkContext = new SparkContext(
     new SparkConf()
       .setAppName(APP_NAME)
       .setMaster("local")
       .set("spark.driver.host", "127.0.0.1")
   )
 
-  def getLocalSparkSession: SparkSession = SparkSession.builder()
+  val localSparkSession: SparkSession = SparkSession.builder()
     .appName(APP_NAME)
     .master("local")
     .config("spark.driver.host", "127.0.0.1")
