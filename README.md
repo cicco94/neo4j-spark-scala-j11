@@ -1,4 +1,4 @@
-#Neo4 on Spark on Scala
+# Neo4j on Spark on Scala
 
 ### Run the environment
 - run spark inside the `docker/spark` folder with the following command: `docker-compose up`
